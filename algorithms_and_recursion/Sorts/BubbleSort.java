@@ -4,6 +4,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         // bubble sort visualization video: https://www.youtube.com/watch?v=Cq7SMsQBEUw
         // bubble sort in 2 minutes: https://www.youtube.com/watch?v=xli_FI7CuzA
+        // w3schools bubble sort: https://www.w3schools.com/dsa/dsa_algo_bubblesort.php
         int[] unsortedArray = { 6, 10, 4, 2, 9, 8, 5};
         int[] sortedArray = bubbleSort(unsortedArray);
         for( int num : sortedArray) {

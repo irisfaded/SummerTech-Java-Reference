@@ -7,11 +7,11 @@ public class Recursion {
 //        System.out.println(reverse("hello", 0));
 
         // factorial recursion
-//        System.out.println(factorial(6));
+        System.out.println(factorial(5));
 
         // palindrome
         // test cases: madam -> true, civic -> true, redivider -> true, motor -> false, hello -> false
-        System.out.println(palindrome("madam", 0));
+//        System.out.println(palindrome("madam", 0));
 
     }
 
@@ -36,6 +36,11 @@ public class Recursion {
             return 1;
         }
         return factorial(num-1)*num;
+        // f(5) -> f(4)*5
+        // f(3)*4*5
+        // f(2)*3*4*5
+        // f(1)*2*3*4*5
+
     }
     // palindrome recursion
     public static boolean palindrome(String thing, int i) {

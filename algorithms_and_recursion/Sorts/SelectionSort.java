@@ -3,6 +3,7 @@ package Sorts;
 public class SelectionSort {
     public static void main(String[] args) {
         // selection sort video: https://www.youtube.com/watch?v=g-PGLbMth_g
+        // w3schools selection sort, very cool: https://www.w3schools.com/dsa/dsa_algo_selectionsort.php
         int[] unsortedArr = { 7, 4, 10, 9, 5, 3, 1, 6, 2, 8};
         int[] sortedArr = selectionSort(unsortedArr);
         for( int num : sortedArr) {
