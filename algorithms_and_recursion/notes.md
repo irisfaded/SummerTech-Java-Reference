@@ -1,4 +1,4 @@
-General terminology
+## General terminology
 1. Parameters
     - The variables defined in the function definition
     e.x (Python) def someFunction(x, y)
@@ -8,13 +8,13 @@ General terminology
     e.x. (Python) someFunction(1, 2)
     1 and 2 are arguments that get passed as x and y inside someFunction
 
-Recursion terminology
+## Recursion terminology
 1. Base Case
     - The conditional statement at the very beginning of the recursive function that evaluates if the recursion should be broken
 2. Recursive Case
     - The condition for when the function calls itself, adjusting its parameters to move towards the base case
 
-OOP (Object-Oriented Programming) terminology
+## OOP (Object-Oriented Programming) terminology
 1. Instantiation
     - creating an object of a class
     e.x. (Java) -> Person person1 = new Person();
